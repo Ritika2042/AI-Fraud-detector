@@ -1,0 +1,52 @@
+[
+  {
+    "id": "MANUAL_001",
+    "conversation": "Caller: I am calling from the Cyber Crime Department. Your Aadhaar has been linked to a money laundering case. Do not disconnect this call. Transfer ₹50,000 immediately for verification.",
+    "expected_label": "Digital Arrest Scam"
+  },
+  {
+    "id": "MANUAL_002",
+    "conversation": "Caller: Please share your OTP to verify your bank account.",
+    "expected_label": "OTP Scam"
+  },
+  {
+    "id": "MANUAL_003",
+    "conversation": "Caller: Your bank KYC has expired. Update it immediately or your account will be blocked.",
+    "expected_label": "Bank KYC Scam"
+  },
+  {
+    "id": "MANUAL_004",
+    "conversation": "Caller: Scan this QR code to receive your refund.",
+    "expected_label": "QR Code Scam"
+  },
+  {
+    "id": "MANUAL_005",
+    "conversation": "Caller: Invest ₹10,000 today and earn guaranteed 5x returns within one month.",
+    "expected_label": "Investment Scam"
+  },
+  {
+    "id": "MANUAL_006",
+    "conversation": "Caller: We are offering an instant loan. Pay ₹5,000 as processing fees first.",
+    "expected_label": "Loan Scam"
+  },
+  {
+    "id": "MANUAL_007",
+    "conversation": "Recruiter: Work from home. Earn ₹5,000 every day by liking YouTube videos. Deposit ₹1,000 to activate your account.",
+    "expected_label": "Job Scam"
+  },
+  {
+    "id": "MANUAL_008",
+    "conversation": "Person: I love you. I have sent you expensive gifts from London. Please pay customs charges.",
+    "expected_label": "Romance Scam"
+  },
+  {
+    "id": "MANUAL_009",
+    "conversation": "Tech Support: Your computer is infected. Install AnyDesk immediately so we can fix it.",
+    "expected_label": "Tech Support Scam"
+  },
+  {
+    "id": "MANUAL_010",
+    "conversation": "Friend: Hi! Are we still meeting for lunch tomorrow at 1 PM?",
+    "expected_label": "Safe"
+  }
+]

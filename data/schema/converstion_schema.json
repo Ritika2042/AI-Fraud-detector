@@ -1,0 +1,24 @@
+{
+  "id": "",
+  "language": "",
+  "source": "",
+  "conversation": [
+    {
+      "speaker": "",
+      "text": ""
+    }
+  ],
+  "label": "",
+  "risk_score": 0,
+  "tags": {
+    "authority_impersonation": false,
+    "urgency": false,
+    "fear": false,
+    "money_request": false,
+    "otp_request": false,
+    "qr_request": false,
+    "bank_details_request": false,
+    "remote_access_request": false,
+    "keep_secret": false
+  }
+}

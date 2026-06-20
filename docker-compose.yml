@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    container_name: scam_detection_api
+    ports:
+      - "8000:8000"
+    volumes:
+      # Mount directories to allow data, model artifacts, and logs to persist on the host
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./logs:/app/logs
+    environment:
+      - PYTHONPATH=/app
+    restart: unless-stopped

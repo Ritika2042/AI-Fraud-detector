@@ -1,0 +1,42 @@
+[
+  {
+    "id": "DA0001",
+    "language": "English",
+    "source": "synthetic",
+    "conversation": [
+      {
+        "speaker": "Caller",
+        "text": "Hello, I am calling from the Cyber Crime Department."
+      },
+      {
+        "speaker": "Victim",
+        "text": "Okay, what happened?"
+      },
+      {
+        "speaker": "Caller",
+        "text": "Your Aadhaar is linked to money laundering."
+      },
+      {
+        "speaker": "Caller",
+        "text": "Do not disconnect the call."
+      },
+      {
+        "speaker": "Caller",
+        "text": "Transfer ₹50,000 for verification."
+      }
+    ],
+    "label": "Digital Arrest Scam",
+    "risk_score": 98,
+    "tags": {
+      "authority_impersonation": true,
+      "urgency": true,
+      "fear": true,
+      "money_request": true,
+      "otp_request": false,
+      "qr_request": false,
+      "bank_details_request": false,
+      "remote_access_request": false,
+      "keep_secret": true
+    }
+  }
+]

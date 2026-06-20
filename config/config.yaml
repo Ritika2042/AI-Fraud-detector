@@ -1,0 +1,33 @@
+project_name: "ai_scam_detector"
+
+data:
+  raw_data_path: "data/raw/synthetic_scam_data.csv"
+  processed_data_path: "data/processed/processed_scam_data.csv"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  model_path: "models/scam_classifier.pkl"
+  metrics_path: "models/metrics.json"
+  model_type: "tfidf_logistic"
+  tfidf:
+    max_features: 5000
+    ngram_range: [1, 2]
+    lowercase: true
+  classifier:
+    C: 1.0
+    max_iter: 1000
+    class_weight: "balanced"
+    random_state: 42
+
+api:
+  host: "127.0.0.1"
+  port: 8000
+  debug: false
+  cors_origins: ["*"]
+
+logging:
+  log_level: "INFO"
+  log_file: "logs/app.log"
+  backup_count: 5
+  max_bytes: 10485760 # 10MB
